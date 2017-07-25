@@ -1,0 +1,43 @@
+.User {
+  border: 1px solid black;
+  padding: 1em;
+  background-color: #bada55;
+  font-style: normal;
+  font-size: 40px;
+  margin: 1em 0;
+  text-align: left;
+}
+
+.User ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.username {
+  font-style: italic;
+  padding-bottom: 0.5em;
+}
+
+.User blockquote {
+  margin: 0;
+  padding: 1em;
+  border: 1px solid blue;
+  background-color: rgba(255,255,255,.5);
+  border-radius: 10px;
+}
+
+.User blockquote p {
+  margin: 0;
+}
+
+.User small {
+font-style: italic;
+}
+.User small:before {
+  content: "-- ";
+}
+
+.User small:after {
+  content: " (Human)";
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Intro to JS</title>
+</head>
+<body>
+
+	<h1>Intro to JavaScript</h1>
+
+	<button>Click Me</button>
+	<input type="text" id="new-name">
+
+	<ol>
+		<li>Red</li>
+		<li>Yellow</li>
+		<li>Orange</li>
+		<li>Blue</li>
+		<li>Purple</li>
+	</ol>
+
+	<script>
+		// Single line
+		/* Multiple Line */
+		// Data Types
+		// var intro;
+		const intro = "hello world";
+		console.log(intro);
+
+		// const - constance : the vale cannot be changed
+		// let - value can be changed (w/beter scoping)
+		let change = "good night moon";
+		console.log(change);
+		change = "good day sun";
+		console.log(change);
+
+		let myBool = true;
+		console.log(myBool);
+
+		myBool = false;
+		console.log(myBool);
+
+
+		const myNum = Math.round(1000 * 30 / 3.14);
+		console.log(myNum);
+
+		const myArray = [1,2,3,4,5];
+		myArray.push("B");
+		console.log(myArray[5]);
+
+		for(let i = 0; i < myArray.length; i = i + 1) {
+			console.log(myArray[i]);
+		}
+
+	</script>
+
+</body>
+</html>
