@@ -1,0 +1,26 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "A Website",
+    "owner": "Someone",
+    "description": "There's some text"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
